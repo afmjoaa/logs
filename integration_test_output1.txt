@@ -1,0 +1,15 @@
+No device specified, using the first one (fe42b133)
+⠋ Installing server...[2K✓ Installed server (2.0s)
+⠋ Installing instrumentation...[2K✓ Installed instrumentation (2.7s)
+> Building apk for intregation_test.dart...
+✓ Building apk for intregation_test.dart succeeded!
+> Running intregation_test.dart on fe42b133...
+VMServiceFlutterDriver: Connecting to Flutter application at http://127.0.0.1:8764/B065ulxQB0o=/
+VMServiceFlutterDriver: Isolate found with number: 256354274442483
+VMServiceFlutterDriver: Isolate is paused at start.
+VMServiceFlutterDriver: Attempting to resume isolate
+00:00 +0: App Test full app test
+VMServiceFlutterDriver: Connected to Flutter application.
+00:15 +1: App Test (tearDownAll)
+00:15 +2: All tests passed!
+✓ intregation_test.dart passed!
