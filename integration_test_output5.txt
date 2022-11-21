@@ -1,0 +1,32 @@
+No device specified, using the first one (fe42b133)
+⠋ Installing server...[2K✓ Installed server (2.6s)
+⠋ Installing instrumentation...[2K✓ Installed instrumentation (2.2s)
+> Building apk for intregation_test.dart...
+✓ Building apk for intregation_test.dart succeeded!
+> Running intregation_test.dart on fe42b133...
+VMServiceFlutterDriver: Connecting to Flutter application at http://127.0.0.1:7142/s4knP20kDWU=/
+VMServiceFlutterDriver: Isolate found with number: 3417575689680503
+VMServiceFlutterDriver: Isolate is paused at start.
+VMServiceFlutterDriver: Attempting to resume isolate
+00:00 +0: App Test full app test
+VMServiceFlutterDriver: Connected to Flutter application.
+00:15 +1: App Test (tearDownAll)
+00:15 +2: All tests passed!
+*** Request ***
+uri: https://api.cde.uatcapp.bka.sh/api/auth/pre-init
+method: POST
+responseType: ResponseType.json
+followRedirects: true
+connectTimeout: 0
+sendTimeout: 29000
+receiveTimeout: 29000
+receiveDataWhenStatusError: true
+extra: {}
+headers:
+ Accept: application/json
+ content-type: application/json
+data:
+{"userIdentityNumber":"01533494446","simSerial":"4","userFingerPrintId":"Android_de51af43ac5a2e0e4"}
+INFO: 2022-11-21 13:57:08.178824: -- Loading Bloc #1 : dispatched LoadingStartedEvent --
+INFO: 2022-11-21 13:57:08.211512: --- calling main code to fetch contacts ---
+✓ intregation_test.dart passed!
