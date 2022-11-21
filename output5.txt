@@ -77,3 +77,19 @@
 [android_build/build_android] failed to copy from container: Error: No such container:path: ca1519dd6150e2b8de88413fb80046d2cbbbff251719388f7bfdc62ec02a5eb1:/var/run/act/workflow/paths.txt
 [android_build/build_android] failed to copy from container: Error: No such container:path: ca1519dd6150e2b8de88413fb80046d2cbbbff251719388f7bfdc62ec02a5eb1:/var/run/act/workflow/paths.txt
 [android_build/build_android] 🏁  Job failed
+[android_build/build_android] 🚀  Start image=catthehacker/ubuntu:act-latest
+[android_build/build_android]   🐳  docker pull image=catthehacker/ubuntu:act-latest platform= username= forcePull=false
+[android_build/build_android]   🐳  docker create image=catthehacker/ubuntu:act-latest platform= entrypoint=["/usr/bin/tail" "-f" "/dev/null"] cmd=[]
+[android_build/build_android]   🐳  docker run image=catthehacker/ubuntu:act-latest platform= entrypoint=["/usr/bin/tail" "-f" "/dev/null"] cmd=[]
+[android_build/build_android]   ☁  git clone 'https://github.com/slackapi/slack-github-action' # ref=v1.23.0
+[android_build/build_android] ⭐ Run Main slackapi/slack-github-action@v1.23.0
+[android_build/build_android]   🐳  docker cp src=C:\Users\Joaa\.cache\act/slackapi-slack-github-action@v1.23.0/ dst=/var/run/act/actions/slackapi-slack-github-action@v1.23.0/
+[android_build/build_android]   🐳  docker exec cmd=[node /var/run/act/actions/slackapi-slack-github-action@v1.23.0/dist/index.js] user= workdir=
+[android_build/build_android]   | 
+[android_build/build_android]   ⚙  ::set-output:: ts=1669023492.641089
+[android_build/build_android]   | 
+[android_build/build_android]   ⚙  ::set-output:: thread_ts=1669023492.641089
+[android_build/build_android]   | 
+[android_build/build_android]   ⚙  ::set-output:: time=09:38:12 GMT+0000 (GMT)
+[android_build/build_android]   ✅  Success - Main slackapi/slack-github-action@v1.23.0
+[android_build/build_android] 🏁  Job succeeded
