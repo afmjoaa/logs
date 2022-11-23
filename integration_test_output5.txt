@@ -13,3 +13,4 @@ VMServiceFlutterDriver: Connected to Flutter application.
 00:15 +1: App Test (tearDownAll)
 00:15 +2: All tests passed!
 ✓ intregation_test.dart passed!
+Error: No devices attached

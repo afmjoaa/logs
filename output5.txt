@@ -1048,3 +1048,5 @@
 [android_build/build_android]   🐳  docker exec cmd=[node /var/run/act/actions/actions-setup-java@v2/dist/cleanup/index.js] user= workdir=
 [android_build/build_android]   ✅  Success - Post actions/setup-java@v2
 [android_build/build_android] 🏁  Job succeeded
+[android_build/build_android] 🚀  Start image=catthehacker/ubuntu:act-latest
+[android_build/build_android]   🐳  docker pull image=catthehacker/ubuntu:act-latest platform= username= forcePull=false
